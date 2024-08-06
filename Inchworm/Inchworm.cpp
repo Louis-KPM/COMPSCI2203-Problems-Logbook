@@ -1,24 +1,7 @@
 #include <iostream>
+#include "inchworm.hpp"
 
 using namespace std;
- 
- 
-class Inchworm
-{
-  public:
-  int lunchtime(int branch, int rest, int leaf)
-  {
-    int res = 0;  // initialize your result
-    for (int i = 0; i <= branch; i += rest)  // loop through the branch
-    {
-      if (i % leaf == 0)  // check if the current position is a leaf
-      {
-        res++;  // increment your result
-      }
-    }
-    return res;  // return your result
-  }
-};
 
 int main() {
     Inchworm inchworm;

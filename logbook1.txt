@@ -1,5 +1,32 @@
+ ALT-Zee
+    in VSCee
+ 
  +-+-+-+-+-+-+-+-+
  |I|n|c|h|w|o|r|m|
  +-+-+-+-+-+-+-+-+
 
  Initial Thoughts: 
+    The problem is very straightforward and there is both the iterative approach and numeric approaches I could try. I think the iterative approach, where I actually step through each position on the branch and check it individually is simpler to think about and implement, so I'll do that. It is also more semantic, and that makes me imagine that it would make it easier to update while respecting the terms of engagement specified by the question though.
+
+Reflection:
+    This approach is O(n) time methinks, where numeric approaches would be O(1) but I like pretending the worm is real and really has to climb up the branch. It was trivial to implement. It was good to get my development environment set up for C++, which I have always found a pain on windows. I also figured out how to use a debugger with breakpoints. Very exciting.
+
+ +-+-+-+-+-+-+-+-+-+-+-+-+
+ |T|h|r|o|w|T|h|e|B|a|l|l|
+ +-+-+-+-+-+-+-+-+-+-+-+-+
+
+ Initial Thoughts:
+    Mostly hard to understand what the problem is actually asking. Once understood it is very easy. Just need to keep track of how many times different players have held the ball in a vector and terminate when a player has held ball M times.
+
+Reflection:
+    A bit of a pain to think about while loop for me. Good workflow. I briefly got confused since I had an off-by-one mistake in my while loop because I was incrementing current players index at the beginning of the loop not the end. Fixing this required me remembering to increment the first player before the loop began.
+
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |S|t|r|e|e|t|P|a|r|k|i|n|g|
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+ Initial Thoughts:
+    I'm going to do the direct simulation approach again which involves incrementing through each index and evaluating it instead of some more gestalt approach. It will have to look ahead to upcoming positions and prior positions both in order to check.
+
+Reflection:
+    I did not get it finished in time :(
